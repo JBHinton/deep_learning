@@ -33,7 +33,7 @@ The hyperparameters used were:
   * layer2 = 18 neurons : activation function = ‘relu'
 * epochs = 100
 
-![Model 1 Accuracy Plot](Resources/Model1_accuracy.png)
+![Model 1 Accuracy Plot](Models/AlphabetSoupCharity1.h5)    
 
 ATTEMPT 2<br>
 For my second attempt (Models/AlphabetSoupCharity2.h5) I added another layer. This attempt resulted in an <b>accuracy score of 72.6%.</b> This means that 72.6% of the model’s predicted values align with the dataset’s true values.
