@@ -25,18 +25,18 @@ The model was required to achieve a target predictive accuracy higher than 75%. 
 Results from each model attempt are detailed below:
 
 ATTEMPT 1<br>
-The first attempt (Models/AlphabetSoupCharity1.h5) resulted in an <b>accuracy score of 72.8%. This was the highest accuracy score of the three models.</b> This means that 72.8% of the model’s predicted values align with the dataset’s true values.
+The first attempt (Models/AlphabetSoupCharity1.h5) resulted in an <b>accuracy score of 72.57%.</b> This means that 72.57% of the model’s predicted values align with the dataset’s true values.
 
-The hyperparameters used were:
+The parameters used were:
 * layers = 2
   * layer1 = 9 neurons : activation function = ‘relu’
   * layer2 = 18 neurons : activation function = ‘relu'
 * epochs = 100
 
-![Model 1 Accuracy Plot](Models/AlphabetSoupCharity1.h5)    
+   
 
 ATTEMPT 2<br>
-For my second attempt (Models/AlphabetSoupCharity2.h5) I added another layer. This attempt resulted in an <b>accuracy score of 72.6%.</b> This means that 72.6% of the model’s predicted values align with the dataset’s true values.
+For my second attempt (Models/AlphabetSoupCharity2.h5) I added another layer. This attempt resulted in an <b>accuracy score of 72.58%.</b> This means that 72.58% of the model’s predicted values align with the dataset’s true values.
 
 The hyperparameters used were:
 * layers = 3
@@ -45,19 +45,18 @@ The hyperparameters used were:
   * layer3 = 27 neurons : activation function = ‘relu’
 * epochs = 100
 
-![Model 2 Accuracy Plot](Resources/Model2_accuracy.png)
 
 ATTEMPT 3<br>
-For my third and final attempt (Resources/AlphabetSoupCharity3.h5) I kept the third layer and changed the activation function for layers 2 and 3. This attempt resulted in an <b>accuracy score of 72.7%.</b> This means that 72.7% of the model’s predicted values align with the dataset’s true values.
+For my third and final attempt (Resources/AlphabetSoupCharity3.h5) Iadded an additonal layer, and changed the activation functions. This attempt resulted in an <b>accuracy score of 72.75%.</b> This means that 72.75% of the model’s predicted values align with the dataset’s true values.
 
 The hyperparameters used were:
-* layers = 3
+* layers = 4
   * layer1 = 9 neurons : activation function = ‘relu’
   * layer2 = 18 neurons : activation function = ‘tanh’
   * layer3 = 27 neurons : activation function = ‘tanh’
+  * layer4 = 36 neurons : activation function = ‘sigmoid’
 * epochs = 100
 
-![Model 3 Accuracy Plot](Resources/Model3_accuracy.png)
 
 
 ## Summary
